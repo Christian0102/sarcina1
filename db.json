@@ -1,0 +1,99 @@
+{
+  "countries": [
+    {
+      "id": "1",
+      "name": "Germany"
+    },
+    {
+      "id": "2",
+      "name": "France"
+    },
+    {
+      "id": "3",
+      "name": "Italy"
+    }
+  ],
+  "regions": [
+    {
+      "id": "3",
+      "name": "Berlin",
+      "countryId": "1"
+    },
+    {
+      "id": "4",
+      "name": "Baden-Württemberg",
+      "countryId": "1"
+    },
+    {
+      "id": "42",
+      "name": "Pays de la Loire",
+      "countryId": "2"
+    },
+    {
+      "id": "43",
+      "name": "Centre-Val de Loire",
+      "countryId": "2"
+    },
+    {
+      "id": "84",
+      "name": "Tuscany",
+      "countryId": "3"
+    },
+    {
+      "id": "85",
+      "name": "Sicilia",
+      "countryId": "3"
+    }
+
+  ],
+  "cities": [
+    {
+      "id": "1",
+      "name": "Berlin",
+      "regionId": "3",
+      "population" : "3,748,148",
+      "area": "891.1 km2",
+      "history": "Berlin lies in northeastern Germany, east of the River (Saxon or Thuringian) Saale, that once constituted, together with the River Elbe (from their confluence onwards), the eastern border of the Frankish Realm. While the Frankish Realm was primarily inhabited by Germanic tribes like the Franks and the Saxons, the regions east of the border rivers were inhabited by Slavic tribes."
+    },
+    {
+      "id": "21535",
+      "name": "Stuttgart",
+      "regionId": "4",
+      "population": "634,830",
+      "area": "207.36 km2",
+      "history": "Antiquity Originally, the most important location in the Neckar river valley was the hilly rim of the Stuttgart basin at what is today Bad Cannstatt. Thus, the first settlement of Stuttgart was a massive Roman Castra stativa (Cannstatt Castrum) built c. 90 AD to protect the Villas and vineyards blanketing the landscape and the road from Mogontiacum (Mainz) to Augusta Vindelicorum (Augsburg). "
+    },
+    {
+      "id": "22070",
+      "name": "Angers",
+      "regionId": "42",
+      "population": "155,543",
+      "area": "242.70 km2",
+      "history": " The city is first mentioned by Ptolemy around AD 150 in his Geography. It was then known as Juliomagus (Greek: Ιουλιομαγος, Iouliomagos), a name by which it also appears in the Tabula Peutingeriana. The name is a compound of the Latin name Julius (probably in reference to Julius Caesar) and the Celtic magos. Similar town dedications were common in Roman Gaul, and toponyms often kept a Gallic element."
+    },
+    {
+      "id": "22065",
+      "name": "Orléans",
+      "regionId": "43",
+      "population": "114,644 ",
+      "area": "27.48 km2",
+      "history": "Cenabum was a Gallic stronghold, one of the principal towns of the tribe of the Carnutes where the Druids held their annual assembly. The Carnutes were massacred and the city was destroyed by Julius Caesar in 52 BC, then a new city was built on its ruins by settlers from the gens Aurelia who named the city, civitas Aurelianorum , after themselves. The name later evolved into Orléans. "
+    },
+    {
+      "id": "22343",
+      "name": "Agrigento",
+      "regionId": "85",
+      "population": "59,329",
+      "area": "245.32 km2",
+      "history": "Agrigento was founded on a plateau overlooking the sea, with two nearby rivers, the Hypsas and the Akragas, and a ridge to the north offering a degree of natural fortification. Its establishment took place around 582–580 BC and is attributed to Greek colonists from Gela, who named it"
+    },
+    {
+      "id": "22257",
+      "name": "Lucca",
+      "regionId": "84",
+      "population": "89,243",
+      "area": "185.79 km2",
+      "history": "Lucca was founded by the Etruscans (there are traces of an earlier Ligurian settlement in the 3rd century BC called Luk meaning marsh in which the name Lucca originated) and became a Roman colony in 180 BC. The rectangular grid of its historical centre preserves the Roman street plan, and the Piazza San Michele occupies the site of the ancient forum. Traces of the amphitheatre may still be seen in the Piazza dell'Anfiteatro. "
+    }
+  ]
+}
